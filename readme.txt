@@ -28,7 +28,7 @@ To add a custom logo, navigate to the WordPress Customizer under â€œAppearanceâ€
 * Add: Footer rich
 * Update: Tested up to version 6.5
 
-= 0.0.2 =
+= 0.0.1 =
 * Initial release
 
 
