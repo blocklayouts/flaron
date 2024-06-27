@@ -423,7 +423,7 @@
       "text": "var(--wp--preset--color--main)"
     },
     "spacing": {
-      "blockGap": "var(--wp--preset--spacing--samll)"
+      "blockGap": "1.1rem"
     },
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--inter)",
