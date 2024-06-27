@@ -1,0 +1,109 @@
+.flaron-notice-container {
+  padding: 0;
+  padding-right: 0 !important;
+  overflow: hidden;
+}
+.flaron-notice-container button.notice-dismiss {
+  background: #fff;
+  right: 0;
+}
+
+.flaron-notice-content {
+  background: #fff;
+  display: flex;
+  height: 400px;
+  width: 100%;
+}
+.flaron-notice-content .col-left {
+  width: 50%;
+  padding: 50px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 99;
+}
+
+.flaron-notice-content .flaron-notice-subtitle,
+.flaron-notice-content .flaron-notice-description {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.flaron-notice-content .flaron-notice-subtitle {
+  font-size: 16px;
+}
+.flaron-notice-content .flaron-notice-description {
+  font-size: 18px;
+}
+
+.flaron-notice-content .flaron-notice-heading {
+  color: #000000;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 0.5em 0;
+}
+
+.flaron-notice-content .flaron-notice-btn {
+  margin-top: 1.2em;
+  background-color: #0073d1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 0.9rem 2.5rem;
+  display: inline-block;
+}
+.flaron-notice-content .flaron-notice-btn:focus {
+  box-shadow: none;
+  outline-offset: -3px;
+  outline: 3px solid #7196ff;
+}
+.flaron-notice-content .col-right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.flaron-notice-content .flaron-notice-img {
+  height: 100%;
+}
+
+@media screen and (max-width: 782px) {
+  .flaron-notice-content .flaron-notice-heading {
+    font-size: 1.5rem;
+  }
+  .flaron-notice-content .flaron-notice-subtitle {
+    font-size: 14px;
+  }
+  .flaron-notice-content .flaron-notice-description {
+    font-size: 16px;
+  }
+  .flaron-notice-content .col-left {
+    padding: 50px 10px;
+    width: 100%;
+  }
+  .flaron-notice-container .notice-dismiss::before {
+    color: #fff;
+  }
+  .flaron-notice-content .col-right {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .flaron-notice-content .col-left {
+    width: 100%;
+  }
+  .flaron-notice-content .col-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .flaron-notice-content .col-left {
+    padding: 50px 20px;
+    width: 70%;
+  }
+  .flaron-notice-content .col-right {
+    width: 30%;
+  }
+}
