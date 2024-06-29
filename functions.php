@@ -5,7 +5,7 @@
  * @package flaron
  * @author  Yahya Qara
  * @link https://blocklayouts.com/product/flaron/
- * @since 0.0.2
+ * @since 0.0.3
  */
 
 
@@ -17,7 +17,7 @@ if ( ! function_exists( 'flaron_setup' ) ) {
 
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
-	 * @since 0.0.2
+	 * @since 0.0.3
 	 * @return void
 	 */
 	function flaron_setup() {
@@ -52,7 +52,7 @@ if ( ! function_exists( 'flaron_pattern_categories' ) ) :
 /**
  * Register pattern categories
 *
-* @since 0.0.2
+* @since 0.0.3
 * @return void
 */
 function flaron_pattern_categories() {

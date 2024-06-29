@@ -4,7 +4,7 @@
  *
  * @package flaron
  * @author Yahya Qara
- * @since 0.0.2
+ * @since 0.0.3
  */
 
 
@@ -20,7 +20,7 @@ function flaron_welcome_notice() {
 		wp_enqueue_script('jquery');
 
 		// Register and enqueue welcome-notice.js
-		wp_register_script( 'flaron-welcome-notice-js', get_template_directory_uri() . '/assets/js/welcome-notice.js', array( 'jquery' ), '0.0.2', true );
+		wp_register_script( 'flaron-welcome-notice-js', get_template_directory_uri() . '/assets/js/welcome-notice.js', array( 'jquery' ), '0.0.3', true );
 		$welcome_notice_params = array(
 			'ajaxurl' => admin_url( 'admin-ajax.php' ),
 			'welcome_notice_security' => wp_create_nonce( 'flaron-welcome-notice-nonce' ),

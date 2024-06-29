@@ -23,6 +23,9 @@ To add a custom logo, navigate to the WordPress Customizer under â€œAppearanceâ€
 
 == Changelog ==
 
+= 0.0.3 =
+* Fix: Removed unintended `.git` file from the theme directory
+
 = 0.0.2 =
 * Add: Portfolio page
 * Add: Footer rich
