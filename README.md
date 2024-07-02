@@ -72,15 +72,27 @@ GNU General Public License for more details.
 - Logo-5.png: [Link](https://logoipsum.com/artwork/220)
 - Logo-6.png: [Link](https://logoipsum.com/artwork/235)
 
+#### Avatars
+
+- License: CC0
+- License URL: [CC0 1.0 License](https://creativecommons.org/publicdomain/zero/1.0/)
+- user-1.png: [stocksnap.io](https://stocksnap.io/photo/business-man-IVZBYWKEFM)
+- user-2.png: [stocksnap.io](https://stocksnap.io/photo/business-man-7BQNRHB6EX)
+- user-3.png: [stocksnap.io](https://stocksnap.io/photo/man-interior-BXO1M5UBLM)
+- user-4.png: [stocksnap.io](https://stocksnap.io/photo/man-smiling-X6BW9YMWXV)
+- user-5.png: [stocksnap.io](https://stocksnap.io/photo/senior-business-UTEZRDTKPP)
+- user-6.png: [stocksnap.io](https://stocksnap.io/photo/man-music-JSDMDDA208)
+
+#### Other Images
+
+- License: CC0
+- License URL: [CC0 1.0 License](https://creativecommons.org/publicdomain/zero/1.0/)
+- co-workers.png: [stocksnap.io](https://stocksnap.io/photo/business-men-2PI9JGADVT)
+- hero-portfolio-large.png: [stocksnap.io](https://stocksnap.io/photo/man-laptop-HYRSHH13TD)
+- placeholder.png & placeholder-vertical.png: [stocksnap.io](https://stocksnap.io/photo/abstract-shapes-9WYFSBW1BN)
+
 #### Custom Icons and Graphics
 
 - All images in /assets/images/icons created by Qara Yahya and available via CC0.
 - flaron-notice-welcome.png, hero-business.png, hero-portfolio.png, placeholder-simple.png - created by Qara Yahya and available via CC0.
 - License URL: [CC0 1.0 License](https://creativecommons.org/publicdomain/zero/1.0/)
-
-#### Other Images
-
-- License: Unsplash License
-- License URL: [Unsplash License](https://unsplash.com/license)
-- Edited by: Qara Yahya, originally downloaded from [Unsplash](Unsplash.com)
-- Files: user-1.png, user-2.png, user-3.png, user-4.png, user-5.png, user-6.png, co-workers.png, placeholder.png, placeholder-vertical.png, hero-portfolio-large.png
