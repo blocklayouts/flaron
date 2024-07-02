@@ -65,12 +65,12 @@ GNU General Public License for more details.
 
 - License: Fair Use License
 - License URL: [Logos License](https://logoipsum.com/license/)
-- Logo-1.png: [Link](https://logoipsum.com/artwork/259)
-- Logo-2.png: [Link](https://logoipsum.com/artwork/261)
-- Logo-3.png: [Link](https://logoipsum.com/artwork/242)
-- Logo-4.png: [Link](https://logoipsum.com/artwork/212)
-- Logo-5.png: [Link](https://logoipsum.com/artwork/220)
-- Logo-6.png: [Link](https://logoipsum.com/artwork/235)
+- Logo-1.png: [logoipsum.com](https://logoipsum.com/artwork/259)
+- Logo-2.png: [logoipsum.com](https://logoipsum.com/artwork/261)
+- Logo-3.png: [logoipsum.com](https://logoipsum.com/artwork/242)
+- Logo-4.png: [logoipsum.com](https://logoipsum.com/artwork/212)
+- Logo-5.png: [logoipsum.com](https://logoipsum.com/artwork/220)
+- Logo-6.png: [logoipsum.com](https://logoipsum.com/artwork/235)
 
 #### Avatars
 
