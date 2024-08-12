@@ -4,7 +4,7 @@
  *
  * @package flaron
  * @author Yahya Qara
- * @since 0.0.4
+ * @since 0.0.5
  */
 function flaron_welcome_notice() {
 	$current_screen = get_current_screen();
@@ -37,13 +37,13 @@ function flaron_welcome_notice() {
 								<?php esc_html_e( 'Thanks for installing Flaron ✨', 'flaron' ); ?>
 							</p>
 							<h2 class="flaron-notice-heading">
-								<?php esc_html_e( 'Introducing BlockLayouts: Pre-Designed WordPress Block Patterns Library', 'flaron' ); ?>
+								<?php esc_html_e( 'Copy-Paste Pre-Designed WordPress Block Patterns', 'flaron' ); ?>
 							</h2>
 							<p class="flaron-notice-description">
 								<?php esc_html_e( 'Design your perfect pages or postes effortlessly. Choose the block patterns you need, copy and paste them into the editor, and you\'re all set!', 'flaron' ); ?>
 							</p>
 							<a href="<?php echo esc_url( $get_started_url ); ?>" class="flaron-notice-btn" target="_blank">
-								<?php esc_html_e( 'Learn more', 'flaron' ); ?>
+								<?php esc_html_e( 'Explore Now', 'flaron' ); ?>
 							</a>
 						</div>
 						<div class="col-right">
