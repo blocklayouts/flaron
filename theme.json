@@ -211,6 +211,21 @@
               "src": ["file:./assets/fonts/SpaceGrotesk.ttf"]
             }
           ]
+        },
+        {
+          "fontFamily": "Lora, sans-serif",
+          "name": "Lora",
+          "slug": "lora",
+          "fontFace": [
+            {
+              "fontDisplay": "block",
+              "fontFamily": "lora",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "400 700",
+              "src": ["file:./assets/fonts/Lora-VariableFont.ttf"]
+            }
+          ]
         }
       ],
       "fontSizes": [
