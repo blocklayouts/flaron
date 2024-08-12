@@ -1,7 +1,7 @@
 === Flaron Block Theme ===
 Contributors: qarayahya
 Requires at least: 6.0
-Tested up to: 6.5
+Tested up to: 6.6
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,6 +22,12 @@ Yes, our theme is fully responsive and mobile-friendly. It adapts seamlessly to 
 To add a custom logo, navigate to the WordPress Customizer under “Appearance” > “Customize.” Look for the “Site Identity” section, where you can upload and customize your site logo. Follow our documentation for detailed instructions.
 
 == Changelog ==
+
+= 0.0.5 =
+* Add: Add new style variations: Elegant, Playful
+* Add: Add new font: Lora
+* Update: Update the welcome notice
+* Update: Tested up to 6.6
 
 = 0.0.4 =
 * Update: Replaced images with CC0 licensed assets
