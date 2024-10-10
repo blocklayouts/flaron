@@ -184,6 +184,10 @@ dl > * + * {
   .justify-start-on-mobile {
     justify-content: start !important;
   }
+  .two-columns-on-mobile .wp-block-column {
+    flex-basis: 50% !important;
+    width: 50% !important;
+  }
 }
 
 /* Tablet devices (781px to 1024px) */

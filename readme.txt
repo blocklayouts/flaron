@@ -23,6 +23,9 @@ To add a custom logo, navigate to the WordPress Customizer under â€œAppearanceâ€
 
 == Changelog ==
 
+= 0.0.6 =
+* Update: Optimized header display on mobile devices
+
 = 0.0.5 =
 * Add: Add new style variations: Elegant, Playful
 * Add: Add new font: Lora
