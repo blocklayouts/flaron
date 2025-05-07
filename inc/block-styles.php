@@ -16,21 +16,18 @@ if ( ! function_exists( 'flaron_block_styles' ) ) :
 
 	function flaron_block_styles() {
 
-		/**
-		 * Register block styles
-		 */
-		$dark_style = array(
-			'background-color' => 'var(--wp--preset--color--dark-gray)',
-			'color'            => 'var(--wp--preset--color--light-gray)',
-		);
-
 		// Register block styles for core/code and core/preformatted.
 		register_block_style(
 			'core/code',
 			array(
 				'name'         => 'dark-code',
 				'label'        => __( 'Dark', 'flaron' ),
-				'inline_style' => flaron_generate_inline_style( $dark_style ),
+				'inline_style' => '
+					.is-style-dark-code {
+						color: var(--wp--preset--color--light-gray);
+						background-color: var(--wp--preset--color--dark-gray) !important;
+					}
+        		',
 			)
 		);
 
@@ -39,7 +36,12 @@ if ( ! function_exists( 'flaron_block_styles' ) ) :
 			array(
 				'name'         => 'dark-preformatted',
 				'label'        => __( 'Dark', 'flaron' ),
-				'inline_style' => flaron_generate_inline_style( $dark_style ),
+				'inline_style' => '
+					.is-style-dark-preformatted {
+						color: var(--wp--preset--color--light-gray);
+						background-color: var(--wp--preset--color--dark-gray) !important;
+					}
+        		',
 			)
 		);
 
@@ -65,35 +67,20 @@ if ( ! function_exists( 'flaron_block_styles' ) ) :
 				'name'         => 'button',
 				'label'        => __( 'Button', 'flaron' ),
 				'inline_style' => '
-            .wp-block-tag-cloud.is-style-button {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 0.65rem;
-            }
-            .wp-block-tag-cloud.is-style-button a {
-                border-radius: var(--wp--custom--border-radius--full);
-                padding: 0.65rem 1rem;
-                text-decoration: none !important;
-                background-color: #f1f5f9;
-            }
-        ',
+					.wp-block-tag-cloud.is-style-button {
+						display: flex;
+						flex-wrap: wrap;
+						gap: 0.65rem;
+					}
+					.wp-block-tag-cloud.is-style-button a {
+						border-radius: var(--wp--custom--border-radius--full);
+						padding: 0.65rem 1rem;
+						text-decoration: none !important;
+						background-color: #f1f5f9;
+					}
+				',
 			)
 		);
 	}
 endif;
 add_action( 'init', 'flaron_block_styles' );
-
-
-/**
- * Generate inline style from an array of CSS properties.
- *
- * @param array $styles Array of CSS properties and values.
- * @return string Inline CSS style.
- */
-function flaron_generate_inline_style( $styles ) {
-	$inline_style = '';
-	foreach ( $styles as $property => $value ) {
-		$inline_style .= "$property: $value;";
-	}
-	return $inline_style;
-}
